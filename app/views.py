@@ -6,8 +6,8 @@ def index():
     '''
     returns the index page and its data.
     '''
-    word = 'Hellor World'
-    return render_template('index.html', message = word)
+    title = 'Home - Welcome to the Quickest News for Busy People'
+    return render_template('index.html', title = title)
 
     # @app.route('News')
     # def
