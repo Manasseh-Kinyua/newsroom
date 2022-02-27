@@ -26,6 +26,9 @@ def get_news():
             news_results_list = get_news_response['articles']
             print(news_results_list)
             news_results = process_results(news_results_list)
+    return news_results
+
+def process_results(news_list):
 
 
 
