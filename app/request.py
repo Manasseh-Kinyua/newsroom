@@ -16,6 +16,9 @@ def get_news():
     '''
     get_news_url = base_url.format(api_key)
 
+    with urllib.request.urlopen(get_news_url) as url:
+        
+
 
 
 
