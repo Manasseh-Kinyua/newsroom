@@ -1,6 +1,14 @@
 /* body {
   background-color: black;
 } */
+.heading {
+  text-align: center;
+  font-family: "sofia", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 50px;
+  padding: 20px;
+}
 .card img {
   width: 100%;
 }

@@ -5,10 +5,11 @@ styles block
 {% block styles %}
   {{ super() }}
   <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
 {% endblock %}
 
 {% block content %}
-  <h3>Quickest News</h3>
+  <h3 class="heading">Quickest News</h3>
   <ul>
     {{macro.displayNewsList(articles)}}
   </ul>
