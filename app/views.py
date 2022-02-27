@@ -9,8 +9,8 @@ def index():
     word = 'Hellor World'
     return render_template('index.html', message = word)
 
-    @app.route('News')
-    def
+    # @app.route('News')
+    # def
 
 
 
