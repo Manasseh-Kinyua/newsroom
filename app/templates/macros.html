@@ -1,0 +1,6 @@
+{% macro displayNewsList(news_list) %}
+  {% for news in news_list %}
+  <li>{{news.title}}</li>
+  <img src="{{news.urlToImage}}" alt="">
+  {% endfor %}
+{% endmacro %}
