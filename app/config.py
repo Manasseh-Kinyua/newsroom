@@ -4,13 +4,13 @@ class Config:
     '''
     pass
 
-class ProdConfig(config):
+class ProdConfig(Config):
     '''
     production configurationchild class
     '''
     pass
 
-class DevConfig(config):
+class DevConfig(Config):
     '''
     development configuration child class
     '''
