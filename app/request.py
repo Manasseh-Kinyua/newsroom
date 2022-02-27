@@ -1,8 +1,8 @@
 from app import app
 import urllib.request,json
-from .models import movie
+from .models import news
 
-Movie = movie.Movie
+News = news.News
 
 #getting the api key
 api_key = app.config['NEWS_API_KEY']
@@ -42,7 +42,7 @@ def process_results(news_list):
         publishedAt = news_item.get('publishedAt')
         content = news_item.get('content')
 
-        news_object = News(authoe,title,description,url,urlToImage,publishedAt,content)
+        news_object = News(author,title,description,url,urlToImage,publishedAt,content)
         print(news_object)
         news_results.append(news_object)
 

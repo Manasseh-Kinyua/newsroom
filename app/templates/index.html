@@ -10,6 +10,12 @@
 
   </head>
   <body>
+    <h3>Quickest News</h3>
+    <ul>
+      {% for article in articles %}
+        <li>{{article.title}}</li>
+      {% endfor %}
+    </ul>
 
   </body>
 </html>
