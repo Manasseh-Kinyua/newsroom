@@ -6,7 +6,7 @@ class Config:
 
 class ProdConfig(Config):
     '''
-    production configurationchild class
+    production configuration child class
     '''
     pass
 
