@@ -1,21 +1,10 @@
+{% extends 'base.html' %}
 {% import 'macros.html' as macro %}
 
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    {% if title %}
-    <title>{{title}}</title>
-    {% else %}
-    <title>Welcome to the Quickest News</title>
-    {% endif %}
+{% block content %}
+  <h3>Quickest News</h3>
+  <ul>
+    {{macro.displayNewsList(articles)}}
+  </ul>
 
-  </head>
-  <body>
-    <h3>Quickest News</h3>
-    <ul>
-      {{macro.displayNewsList(articles)}}
-    </ul>
-
-  </body>
-</html>
+{% endblock %}
