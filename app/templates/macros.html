@@ -19,3 +19,25 @@
     </div>
   {% endfor %}
 {% endmacro %}
+
+{% macro displayResultsList(news_list) %}
+  {% for news in news_list %}
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-1 g-4 d-flex">
+        <div class="col p-3">
+          <div class="card p-3 article">
+            <img src="{{sources.url}}" class="card-image-top" alt="headline-image">
+            <div class="card-body">
+              <h3 class="card-title text-warning">{{sources.name}}</h3>
+              <p class="card-text text-bold text-dark fs-3"><strong>{{sources.description}}</strong></p>
+              <p class="card-text fs-4">{{sources.country}}</p>
+              <p class="card-text text-center text-info display-5">{{sources.id}}</p>
+              <!-- <div class="r-more"><a href="{{news.url}}" class="btn btn-primary">Read More...</a></div> -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+{% endmacro %}
