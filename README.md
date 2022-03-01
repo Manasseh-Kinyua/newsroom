@@ -9,3 +9,23 @@ This is a School project that consumes the news Api to display news articles and
 <img src="./img/news.png" width="900px" height="440px">
 
 ##User Stories
+
+
+### Setup/Installation Requirements
+* Click on the heroku link
+* Read the news.
+
+### Dependencies
+* Internet connection so as to display Google fonts.
+### Contact Info
+* email nassehkinyua99@gmail.com
+### TECHNOLOGIES USED
+* HTML
+* CSS
+* JavaScript
+* flask
+* Bootstrap
+* Python
+### LICENSE INFO
+* MIT License
+* Copyright (c) {2021} **{Manasseh Kinyua}**
