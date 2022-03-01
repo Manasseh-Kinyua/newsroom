@@ -26,3 +26,15 @@
   box-shadow: -4px 3px 20px -1px rgba(0,0,0,0.75);
   padding: 10px;
 }
+.source-card {
+  /* border: 2px solid red; */
+  padding: 2px;
+  margin: 5px;
+  background-color: #e8dfdf;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'hubballi';
+  font-size: 20px;
+  box-shadow: -4px 3px 20px -1px rgba(0,0,0,0.75);
+}

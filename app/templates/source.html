@@ -5,13 +5,42 @@
   {{ super() }}
   <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
   <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
 {% endblock %}
 
 <h1>sources</h1>
 {% block content %}
   <h3 class="heading">Some Sources</h3>
+  <div class="container">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="source-card">
+            <h2><a class="btn btn-success" href="https://abcnews.go.com">abc-news</a></h2>
+            <p>Your trusted source for breaking news, analysis, exclusive interviews, headlines, and videos at ABCNews.com.</p>
+          </div>
+          <div class="source-card">
+            <h2><a class="btn btn-success" href="https://apnews.com/">associated-press</a></h2>
+            <p>The AP delivers in-depth coverage on the international, politics, lifestyle, business, and entertainment news.</p>
+          </div>
+          <div class="source-card">
+            <h2><a class="btn btn-success" href="http://www.abc.net.au/news">abc-news-au</a></h2>
+            <p>Australia's most trusted source of local, national and world news. Comprehensive, independent, in-depth analysis, the latest business, sport, weather and more.</p>
+          </div>
+          <div class="source-card">
+            <h2><a class="btn btn-success" href="https://www.aftenposten.no">aftenposten</a></h2>
+            <p>Norges ledende nettavis med alltid oppdaterte nyheter innenfor innenriks, utenriks, sport og kultur</p>
+          </div>
+          <div class="source-card">
+            <h2><a class="btn btn-success" href="http://www.aljazeera.com">al-jazeera-english</a></h2>
+            <p>News, analysis from the Middle East and worldwide, multimedia and interactives, opinions, documentaries, podcasts, long reads and broadcast schedule.</p>
+          </div>
+          </div>
+        </div>
+    </div>
+  </div>
   <ul>
-    {{macro.displayResultsList(articles)}}
+    {{macro.displayResultsList(sources)}}
   </ul>
 
 {% endblock %}
