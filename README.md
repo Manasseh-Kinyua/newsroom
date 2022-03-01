@@ -2,6 +2,8 @@
 
 [Manasseh Kinyua](https://github.com/Manasseh-Kinyua)
 
+##Live Link
+(https://nasseh-newsroom.herokuapp.com/)
 ## Description
 This is a School project that consumes the news Api to display news articles and sources to the user. I t was aimed to help students practice the fundamentals of flask.
 
